@@ -8,7 +8,7 @@ Aight, we've been through this hella times now ----- but here are the steps to c
 
 <details>
   <summary> Pic </summary>
-![](./images/new-project.png)
+  <img src="/images/new-project.png">
 </details>
 
 
