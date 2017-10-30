@@ -38,5 +38,34 @@ Cool, now let's tell Unity that we will be building a Virtual Reality app for An
 * Select "Android"
 * Click "Switch Platform"
 
+### Configure the Player Settings
+
+Now, with the Build Settings window still open, click "Player Settings" and it will pop open.
+
+<details>
+  <summary> Pic </summary>
+  <img src="images/player-settings.png">
+</details>
+
+* Click "Other Settings"
+* Change the Package Name to "com.YourName.MyWorld"
+* Change the Minimum API Level to "Android 7.0 'Nougat' (API level 24)" 
+
+<details>
+  <summary> Pic </summary>
+  <img src="images/other-settings.png">
+</details>
+
+* Close "Other Settings" and Click "XR Settings"
+* Select "Virtual Reality Supported"
+* Click the "+" icon to add the "Cardboard" SDK
+
+<details>
+  <summary> Pic </summary>
+  <img src="images/xr-settings.png">
+</details>
+
+
+
 
 
