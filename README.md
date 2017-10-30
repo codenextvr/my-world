@@ -114,6 +114,14 @@ Go to Window > Asset Store to open the Unity Asset Store
   <img src="images/asset-pack.png">
 </details>
 
+##### Add Movement Script
+
+##### Add Audio
+
+## Build
+
+
+
 
 
 
