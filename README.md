@@ -76,6 +76,48 @@ Now, with the Build Settings window still open, click "Player Settings" and it w
   <img src="images/xr-settings.png">
 </details>
 
+## Creating the Ground (optional)
+
+If your world will have a ground, here's how you can create one.
+
+##### Add a cube
+
+* Add a Cube GameObject to your scene, and name it "Ground"
+* Set the position to x: 0, y: -1, z: 0
+* Set the scale to x: 200, y: 0, z: 200
+
+<details>
+  <summary> Pic </summary>
+  <img src="images/ground.png">
+</details>
+
+
+Now you can drag and drop a Material or Texture (blue color, brick, grass, etc.) to your Ground
+
+## Asset Store
+
+Go to Window > Asset Store to open the Unity Asset Store
+
+<details>
+  <summary> Pic </summary>
+  <img src="images/window-asset.png">
+</details>
+
+##### Search for anything you want!
+
+* Search and press "Free Only" to filter for free assets #ImBroke
+* Click on an asset pack to download & import into your project
+
+<details>
+  <summary> Pic </summary>
+  <img src="images/asset-store.png">
+  <img src="images/asset-pack.png">
+</details>
+
+
+
+
+
 
 
 
