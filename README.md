@@ -23,6 +23,8 @@ Go to Assets > Import Package > Custom Package and select the GoogleVRForUnity_1
   <img src="images/import-gvr.png">
 </details>
 
+##### Deselect libs folder
+
 Remember to scroll down to "Plugins", and deselect that pesky "libs" folder before clicking Import.
 
 <details>
@@ -38,6 +40,11 @@ Cool, now let's tell Unity that we will be building a Virtual Reality app for An
 * Select "Android"
 * Click "Switch Platform"
 
+<details>
+  <summary> Pic </summary>
+  <img src="images/switch-platform.png">
+</details>
+
 ### Configure the Player Settings
 
 Now, with the Build Settings window still open, click "Player Settings" and it will pop open.
@@ -47,6 +54,8 @@ Now, with the Build Settings window still open, click "Player Settings" and it w
   <img src="images/player-settings.png">
 </details>
 
+##### Other Settings
+
 * Click "Other Settings"
 * Change the Package Name to "com.YourName.MyWorld"
 * Change the Minimum API Level to "Android 7.0 'Nougat' (API level 24)" 
@@ -55,6 +64,8 @@ Now, with the Build Settings window still open, click "Player Settings" and it w
   <summary> Pic </summary>
   <img src="images/other-settings.png">
 </details>
+
+##### XR Settings
 
 * Close "Other Settings" and Click "XR Settings"
 * Select "Virtual Reality Supported"
