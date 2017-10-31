@@ -114,9 +114,46 @@ Go to Window > Asset Store to open the Unity Asset Store
   <img src="images/asset-pack.png">
 </details>
 
-##### Add Movement Script
+##### Add Movement Script (extra)
 
-##### Add Audio
+* Create a script named "AutoWalk"
+* Delete EVERYTHING inside to leave a blank page
+* Replace it all with this code 
+
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AutoWalk : MonoBehaviour {
+
+	int speed = 3;
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		transform.position = transform.position + Camera.main.transform.forward * speed * Time.deltaTime;
+	}
+
+
+}
+```
+
+* Drag the script on to your PlayerCamera
+* Turn your head to move around your world
+
+##### Add Audio (extra)
+
+* Download an audio clip you would like to have in your world
+* Import the audio clip into Unity (Import New Asset > Select Your Audio File)
+* Create an Audio Source GameObject in your hiearchy (Audio > Audio Source)
+* Click the "Audio Clip" button to scroll and select your file
+* Make sure "Play on Awake" and "Loop" are selected (if you want that)
+
 
 ## Build
 
